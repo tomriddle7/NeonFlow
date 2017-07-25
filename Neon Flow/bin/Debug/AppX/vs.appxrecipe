@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HONOKA</Machine>
+    <WindowsUser>Honoka</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2fa90c9a-e381-46ba-9eac-f4db1ed328e6</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Honoka</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7B2CA4CE8D4C6D829B8DE40BA2CB8E922AF66D7D61CAE334838EAD143239CC2F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2fa90c9a-e381-46ba-9eac-f4db1ed328e6_1.0.0.0_neutral__4em085tpg9bqj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2fa90c9a-e381-46ba-9eac-f4db1ed328e6_4em085tpg9bqj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2fa90c9a-e381-46ba-9eac-f4db1ed328e6</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Honoka</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-07T14:49:48.255</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2017-07-07T14:59:28.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2017-07-07T14:52:02.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\lib\winjs-4.0.1\js\base.js">
+      <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\lib\winjs-4.0.1\js\ui.js">
+      <PackagePath>lib\winjs-4.0.1\js\ui.js</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2017-07-07T14:49:46.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\lib\winjs-4.0.1\css\ui-light.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-light.css</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\lib\winjs-4.0.1\css\ui-dark.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-dark.css</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\lib\winjs-4.0.1\fonts\Symbols.ttf">
+      <PackagePath>lib\winjs-4.0.1\fonts\Symbols.ttf</PackagePath>
+      <Modified>2017-06-26T09:04:04.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Honoka\documents\visual studio 2017\Projects\Neon Flow\Neon Flow\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-06T10:57:41.582</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

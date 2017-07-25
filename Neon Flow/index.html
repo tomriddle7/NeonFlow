@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Neon_Flow</title>
+    <link href="lib/winjs-4.0.1/css/ui-dark.css" rel="stylesheet" />
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="marquee">
+        <p>겉표지보다 큰 몇 향수류</p>
+    </div>
+
+    <div class="minimalAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom', closedDisplayMode:'minimal'}">
+        <div data-win-control="WinJS.UI.AppBarCommand" data-win-options="{ id: 'search', type: 'content'}">
+            <input type="text" id="textbar" />
+        </div>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdText',label:'Text',icon:'edit',tooltip:'Text item',section:'primary', onclick: Sample.App1}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRed',label:'Red',icon:'font',tooltip:'Red item',section:'secondary', onclick: Sample.color}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdDarkOrange',label:'DarkOrange',icon:'font',tooltip:'DarkOrange item',section:'secondary', onclick: Sample.color}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdGold',label:'Gold',icon:'font',tooltip:'Gold item',section:'secondary', onclick: Sample.color}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdMediumBlue',label:'MediumBlue',icon:'font',tooltip:'MediumBlue item',section:'secondary', onclick: Sample.color}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdMagenta',label:'Magenta',icon:'font',tooltip:'Magenta item',section:'secondary', onclick: Sample.color}"></button>
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdItalic',label:'Italic',icon:'italic',tooltip:'Italic item',section:'primary', onclick: Sample.outputCommand}"></button>       -->
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdCamera',label:'Camera',icon:'camera',tooltip:'Take a picture',section:'primary', onclick: Sample.outputCommand}"></button>    -->
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSettings',label:'Settings',icon:'settings',tooltip:'Settings',section:'primary', onclick: Sample.outputCommand}"></button>    -->
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdShare',label:'Share',icon:'reshare',tooltip:'Share',section:'primary', onclick: Sample.outputCommand}"></button>              -->
+    </div>
+
+    <div class="status"></div>
+</body>
+</html>
